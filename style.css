@@ -1,0 +1,138 @@
+body{
+    background-image: url("./Desert.jpg") ;
+    background-size: cover;
+}
+
+.main{
+    margin: 20px 100px;
+}
+
+/* logo */
+
+.image{
+    width: 40px;
+    height: 40px;
+}
+
+.nav{
+    float: right;
+
+}
+
+a{
+    color: antiquewhite;
+    text-decoration: none;
+    margin: 30px;
+}
+
+.a{
+    position: relative;
+    top: 5px;
+    font-size: 22px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+/* Left flex */
+.flex-left{
+    display: flex;
+    flex-flow: column ;
+    justify-content: center;
+}
+
+.c{
+    color: antiquewhite;
+    font-size: 100px;
+    margin: 0px;
+}
+
+.lorem{
+    color: antiquewhite;
+    text-align: left;
+
+}
+
+.explore{
+    background-color: antiquewhite;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 30px;
+
+}
+
+/* right flex */
+.flex-right{
+    display: flex;
+    flex-flow: row wrap;
+    cursor: pointer;
+    
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    border-radius: 30px;
+}
+
+.card1{
+    background-image: url("./western-desert.jpg");
+    background-size: cover;
+    
+
+}
+
+.card2{
+    background-image: url("./bagawat.jpg");
+    background-size: cover;
+   
+}
+
+.card3{
+    background-image: url("./pyramid-giza.jpg");
+    background-size: cover;
+}
+
+.card4{
+    background-image: url("./kalahari-desert.jpg");
+    background-size: cover;
+    
+}
+
+.card:hover{
+    transform: translateY(-20px);
+}
+
+h5, p{
+    color:antiquewhite ;
+    padding-left: 15px;
+}
+
+@media (max-width: 500px){
+    .main{
+        margin: 5px;
+    }
+    
+    .flex-container{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin-top: 250px;
+        
+    }
+    
+    .flex-left{
+        color: red;
+    }
+    .c{
+        color: red;
+    }
+
+    .lorem{
+        color: red;
+    }
+}
