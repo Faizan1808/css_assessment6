@@ -66,39 +66,39 @@ a{
 
 /* right flex */
 .flex-right{
-    display: flex;
+    display: flex ;
     flex-flow: row wrap;
     cursor: pointer;
     
 }
 
 .card{
-    width: 300px;
+    width: 200px;
     height: 300px;
     margin: 15px;
     border-radius: 30px;
 }
 
 .card1{
-    background-image: url("./western-desert.jpg");
+    background-image: url("./pic-1.png");
     background-size: cover;
     
 
 }
 
 .card2{
-    background-image: url("./bagawat.jpg");
+    background-image: url("./pic-2.png");
     background-size: cover;
    
 }
 
 .card3{
-    background-image: url("./pyramid-giza.jpg");
+    background-image: url("./pic-3.png");
     background-size: cover;
 }
 
 .card4{
-    background-image: url("./kalahari-desert.jpg");
+    background-image: url("./pic-4.png");
     background-size: cover;
     
 }
